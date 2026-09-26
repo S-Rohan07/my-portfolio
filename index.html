@@ -2,39 +2,59 @@
 <html>
 <head>
     <title>My Profile</title>
-    <link rel="stylesheet" href="style.css">
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: lightgray;
+        }
+
+        .profile {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .boxes {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .box {
+            width: 200px;
+            height: 150px;
+            background-color: white;
+            border: 2px solid black;
+            padding: 20px;
+        }
+    </style>
 </head>
+
 <body>
 
     <div class="profile">
 
         <h1>Rohan Shinde</h1>
+        <p>IT Engineering Student</p>
 
-        <h3>IT Engineering Student</h3>
+        <div class="boxes">
 
-        <p>
-            Hello! I am Rohan Shinde, an IT Engineering student.
-            I am interested in programming, web development and technology.
-        </p>
-
-        <div class="info">
             <div class="box">
-                <h2>🎨 Hobbies</h2>
-                <p>Drawing</p>
-                <p>Playing Kabaddi</p>
+                <h2>About Me</h2>
+                <p>I am an IT Engineering student.</p>
             </div>
 
             <div class="box">
-                <h2>💻 Skills</h2>
-                <p>C / C++</p>
-                <p>HTML & CSS</p>
-                <p>JavaScript</p>
+                <h2>Skills</h2>
+                <p>HTML, CSS, C++, JavaScript</p>
             </div>
 
             <div class="box">
-                <h2>🎯 Goal</h2>
-                <p>Become a skilled software developer</p>
+                <h2>Hobbies</h2>
+                <p>Drawing and Kabaddi</p>
             </div>
+
         </div>
 
     </div>
